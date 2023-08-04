@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F3EA;
+    
+    
+}
+#main{    
+    
+}
+#page1{
+    height:100vh;
+    width:100vw;
+}
+#nav{
+    height:80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family:"DM Sans 36pt" ;
+}
+#nav h1{
+    font-family: neuton;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+}
+#nav span{
+    color:#FF5858;
+    font-size: 42px;
+    margin-right: -4px;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: -52px;
+}
+#nav-part2 h3{
+    font-size: 19px;
+    font-family: "Neuton Light";
+    font-weight: 100;
+}
+#nav-part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#nav-part3 h2{
+    font-family: "Neuton Light";
+    font-weight: 100;
+}
+#nav-part3 i:nth-child(1){
+    font-size: 20px;
+}
+#nav-part3 h2:nth-child(2){
+    font-size: 19px;
+    color: #FF5858;
+}
+#nav-part3 h2:nth-child(3){
+    font-size: 19px;
+    color:white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#center{
+    height:100%;
+    width: 100%;
+    /* background-color: skyblue; */
+    text-align: center;
+    padding-top:0.1px ;
+    position: relative;
+}
+#center h1{
+    font-size: 72px;
+    font-family: neuton;
+    color: #FF5858;
+    margin-top: 80px;
+
+}
+#center h2{
+    font-size: 72px;
+    font-family: neuton;
+}
+#center p{
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: neuton;
+}
+#center img:nth-child(4){
+    margin-top: 60px;
+    width:85%;
+}
+#center #pink_kite{
+    position: absolute;
+    top:26%;
+    left:17%;
+
+}
+#center #arrow{
+    position: absolute;
+    top:38%;
+    left:25%;
+    height:200px;
+}
+#center #blue_circle{
+    position: absolute;
+    top:5%;
+    left:36.5%;
+}
+#center #yellow_kite{
+    position: absolute;
+    top:13%;
+    right:27%;
+}
+#center #pink_x{
+    position: absolute;
+    top:40%;
+    right: 17%;
+}
